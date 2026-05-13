@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <title>Saving Tips</title>
+
+    <style>
+      .tips-grid {
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+
+      .tips-column {
+        flex: 1;
+        min-width: 250px;
+      }
+
+      .tips-column h4 {
+        margin-bottom: 15px;
+      }
+
+      details {
+        margin-bottom: 12px;
+        border: 1px solid #999;
+        padding: 10px;
+        background-color: white;
+      }
+
+      summary {
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      details p {
+        margin-top: 10px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1><a href="/index.html">UtilEasy</a></h1>
+
+      <hr />
+
+      <div class="navbar">
+        <a href="/index.html">Home</a>
+        <a href="bills.html">Bills</a>
+        <a class="active" href="savings.html">Saving</a>
+        <a href="devices.html">Devices</a>
+        <a href="resources.html">Resources</a>
+        <a href="faqs.html">FAQs</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-title">
+        <h2>Saving Tips</h2>
+      </div>
+
+      <div class="tips-grid">
+
+        <!-- Energy Saving -->
+        <div class="tips-column">
+          <h4>Energy Saving Tips</h4>
+
+          <details>
+            <summary>LED</summary>
+            <p>
+              LED light bulbs use less electricity and last longer than
+              traditional bulbs.
+            </p>
+          </details>
+
+          <details>
+            <summary>Turn Off Devices</summary>
+            <p>
+              Switch off appliances and lights when not in use to reduce
+              electricity usage.
+            </p>
+          </details>
+
+          <details>
+            <summary>Natural Lighting</summary>
+            <p>
+              Open curtains during the day to reduce the need for indoor lights.
+            </p>
+          </details>
+        </div>
+
+        <!-- Water Saving -->
+        <div class="tips-column">
+          <h4>Water Saving Tips</h4>
+
+          <details>
+            <summary>Short Showers</summary>
+            <p>
+              Reducing shower time helps save large amounts of water each week.
+            </p>
+          </details>
+
+          <details>
+            <summary>Fix Leaks</summary>
+            <p>
+              Repair leaking taps and pipes to prevent unnecessary water waste.
+            </p>
+          </details>
+
+          <details>
+            <summary>Full Loads Only</summary>
+            <p>
+              Use washing machines and dishwashers only when fully loaded.
+            </p>
+          </details>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
