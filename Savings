@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>UtilEasy</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1><a href="../index.html">UtilEasy</a></h1>
+      <hr />
+      <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="bills.html">Bills</a>
+        <a class="active" href="savings.html">Saving</a>
+        <a href="devices.html">Devices</a>
+        <a href="resources.html">Resources</a>
+        <a href="faqs.html">FAQs</a>
+      </div>
+    </div>
+    
+    <main class="savings-page">
+      <div class="savings-title">
+        <h2>Saving Tips</h2>
+        <p>
+          Simple ways to reduce electricity and water usage at home.
+        </p>
+      </div>
+      <div class="savings-content">
+        <div class="resource-card">
+          <div class="resource-card-body">
+            <h4>Did You Know?</h4>
+            <p>
+              Small habits such as turning off lights and taking shorter showers can help reduce household bills over time.
+            </p>
+            <p>
+              Did you know? A leaking tap can waste more than 20,000 litres of water each year.
+            </p>
+            <p>
+              Did you know? Leaving a tap running for just one minute can use up to 9 litres of water.
+            </p>
+            <p>
+              Did you know? LED light bulbs use less electricity than traditional bulbs.
+            </p>
+          </div>
+        </div>
+        <div class="savings-flex">
+          <div class="resource-card">
+            <div class="resource-card-body">
+              <h4>Energy Saving Tips</h4>
+              <details>
+               <summary>Use LED Light Bulbs</summary>
+               <p>
+                  LED bulbs use less electricity and last longer than traditional bulbs.
+               </p>
+              </details>
+              <details>
+               <summary>Turn Off Unused Devices</summary>
+               <p>
+                 Turn off lights, fans, and electronics when they are not being used.
+               </p>
+              </details>
+              <details>
+               <summary>Use Natural Lighting</summary>
+                <p>
+                  Open curtains during the day instead of using lights whenever possible.
+               </p>
+             </details>
+            </div>
+          </div>
+         <div class="resource-card">
+           <div class="resource-card-body">
+              <h4>Water saving tips</h4>
+             <details>
+               <summary>Take shorter showers</summary>
+               <p>
+                  Reducing shower time can help save a large amount of water every week.
+               </p>
+             </details>
+              <details>
+               <summary>Fix Leaking Taps</summary>
+                <p>
+                 Check for leaking taps in your home, small leaks can waste a lot of water over time if not repaired.
+               </p>
+             </details>
+              <details>
+               <summary>Turn Off the water</summary>
+               <p>
+                  Turning the tap off while brushing your teeth and while you are shampooing or washing your body helps reduce unnecessary water usage.
+               </p>
+             </details>
+            </div>
+         </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card-body">
+            <h4>Family and Kids Tips</h4>
+            <details>
+              <summary>Light Reminder Notes</summary>
+              <p>
+                Place reminder notes near switches to help children remember to turn lights off.
+              </p>
+            </details>
+            <details>
+              <summary>Family Saving Challenge</summary>
+              <p>
+                Create a weekly challenge to encourage shorter showers and reduced electricity usage.
+              </p>
+            </details>
+            <details>
+              <summary>Make Saving Easy to Understand</summary>
+              <p>
+                Explain to children why saving water and electricity is important using simple examples.
+              </p>
+            </details>
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card-body">
+            <h4>Common Mistakes</h4>
+            <details>
+              <summary>Leaving Chargers Plugged In</summary>
+              <p>
+                Chargers can still use electricity even when not charging a device.
+              </p>
+            </details>
+            <details>
+              <summary>Using the Dryer Too Often</summary>
+              <p>
+                Clothes dryers use a large amount of electricity. A clothesline can help save money.
+              </p>
+            </details>
+            <details>
+              <summary>Half-Full Washing Loads</summary>
+              <p>
+                Washing small loads wastes both water and electricity. So try to wash full loads.
+              </p>
+            </details>
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card-body">
+            <h4>Appliance Cost Examples</h4>
+            <table>
+              <tr>
+                <th>Appliance</th>
+                <th>Usage</th>
+              </tr>
+              <tr>
+                <td>Air Conditioner</td>
+                <td>High</td>
+                <td>Use fans more often</td>
+              </tr>
+              <tr>
+                <td>Clothes Dryer</td>
+                <td>High</td>
+                <td>Use clothesline or drying rack more often and only use clothes dryer if neccessary</td>
+              </tr>
+              <tr>
+               <td>Heater</td>
+                <td>High</td>
+                <td>Use warm clothing before turning heaters on.</td>
+              </tr>
+              <tr>
+                <td>Washing Machine</td>
+                <td>Medium</td>
+                <td>Wash full loads using cold water.</td>
+              </tr>
+              <tr>
+                <td>Television</td>
+                <td>Medium</td>
+                <td>Turn it off when nobody is watching.</td>
+              </tr>
+              <tr>
+                <td>LED Light</td>
+                <td>Low</td>
+                <td>Replace the bulbs with LED light bulbs.
+              </tr>
+              <tr>
+                <td>Phone Charger</td>
+                <td>Low</td>
+                <td>Unplug chargers when not charging devices.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-card-body">
+            <h4>Daily Habit Reminders</h4>
+            <label>
+              <input type="checkbox" />
+              Turn off lights before leaving a room
+            </label>
+            <br /><br />
+            <label>
+              <input type="checkbox" />
+              Take shorter showers
+            </label>
+            <br /><br />
+            <label>
+              <input type="checkbox" />
+              Unplug chargers when not in use
+            </label>
+            <br /><br />
+            <label>
+              <input type="checkbox" />
+              Use cold water for washing clothes
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
