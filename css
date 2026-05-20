@@ -1,0 +1,79 @@
+.savings-flex {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.savings-flex .resource-card {
+  flex: 1;
+  min-width: 300px;
+}
+.savings-page {
+  padding: 1rem;
+}
+
+.savings-title {
+  border-top: 1px solid black;
+  background: linear-gradient(
+    to right,
+    var(--gradient-green),
+    var(--gradient-blue)
+  );
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.savings-title h2,
+.savings-title p {
+  font-weight: normal;
+}
+
+.savings-content {
+  padding: 1rem;
+}
+
+.savings-flex {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.savings-flex .resource-card {
+  flex: 1;
+  min-width: 300px;
+}
+
+.resource-card details {
+  margin-top: 1rem;
+}
+
+.resource-card summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.resource-card p {
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--lgt-blue);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
