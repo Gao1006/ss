@@ -1,79 +1,148 @@
-.savings-flex {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
+:root {
+  --lgt-green: #e8f3e8;
+  --lgt-green-border: #6fbd87;
+  --green-txt: #549367;
+
+  --lgt-blue: #e8f3f7;
+  --lgt-blue-border: #a0d5d8;
+  --blue-txt: #5386b3;
+
+  --lgt-orange: #ffe9d6;
+  --orange-border: #f4a261;
+  --orange-txt: #d97706;
+
+  --lgt-red: #ffe5e5;
+  --red-border: #e58a8a;
+  --red-txt: #c94b4b;
+  
+  --fs-md: 1.25rem;
+  --fs-xl: 2rem;
 }
 
-.savings-flex .resource-card {
-  flex: 1;
-  min-width: 300px;
-}
 .savings-page {
   padding: 1rem;
 }
-
 .savings-title {
-  border-top: 1px solid black;
   background: linear-gradient(
     to right,
     var(--gradient-green),
     var(--gradient-blue)
   );
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
 }
-
-.savings-title h2,
+.savings-title h2 {
+  color: var(--blue-txt);
+  font-size: var(--fs-xl);
+  margin-bottom: 0.5rem;
+}
 .savings-title p {
-  font-weight: normal;
+  margin: 0;
 }
-
 .savings-content {
   padding: 1rem;
 }
-
 .savings-flex {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
-
-.savings-flex .resource-card {
+.savings-flex .saving-card {
   flex: 1;
   min-width: 300px;
 }
-
-.resource-card details {
-  margin-top: 1rem;
+.saving-card {
+  background-color: var(--lgt-green);
+  border: 2px solid var(--lgt-green-border);
+  border-radius: 18px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
-
-.resource-card summary {
+.blue-card {
+  background-color: var(--lgt-blue);
+  border-color: var(--lgt-blue-border);
+}
+.orange-card {
+  background-color: var(--lgt-orange);
+  border-color: var(--orange-border);
+}
+.red-card {
+  background-color: var(--lgt-red);
+  border: 2px solid var(--red-border);
+  border-radius: 18px;
+  }
+.red-card details {
+  border-left: 5px solid var(--red-border);
+}
+.saving-card h4 {
+  color: var(--green-txt);
+  font-size: var(--fs-md);
+  margin-top: 0;
+}
+.blue-card h4 {
+  color: var(--blue-txt);
+}
+.orange-card h4 {
+  color: var(--orange-txt);
+}
+.red-card h4 {
+  color: var(--red-txt);
+}
+.high {
+  color: var(--red-txt);
+  font-weight: bold;
+}
+.medium {
+  color: var(--orange-txt);
+  font-weight: bold;
+}
+.low {
+  color: var(--green-txt);
+  font-weight: bold;
+}
+.saving-card details {
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.8rem;
+  margin-top: 0.8rem;
+  border-left: 5px solid var(--lgt-green-border);
+}
+.blue-card details {
+  border-left-color: var(--lgt-blue-border);
+}
+.orange-card details {
+  border-left-color: var(--orange-border);
+}
+.red-card details {
+  border-left-color: var(--red-border);
+}
+summary {
   cursor: pointer;
   font-weight: bold;
 }
 
-.resource-card p {
+details p {
+  margin-top: 0.5rem;
   line-height: 1.5;
 }
-
-table {
+.saving-card table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
+  background-color: white;
 }
-
-th,
-td {
-  border: 1px solid #ccc;
+.saving-card th,
+.saving-card td {
+  border: 2px solid #8f8f8f;
   padding: 10px;
   text-align: left;
 }
 
-th {
+.saving-card th {
   background-color: var(--lgt-blue);
+  color: var(--blue-txt);
 }
 
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-}
